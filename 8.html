@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CLIMATE CHANGE AWARENESS</title>
+    <style>
+        body {
+            background-color: #EEDE52;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 70px;
+            background-color: lightgreen;
+            color: orange;
+            width: 700px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+        .link-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .link {
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 30px 50px;
+            border-radius: 15px;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+            color: white;
+            width: 400px;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        /* Unique colors for each box */
+        .link:nth-child(1) {
+            background-color: lightgreen;
+            border: 4px solid darkgreen;
+        }
+
+        .link:nth-child(2) {
+            background-color: lightblue;
+            border: 4px solid darkblue;
+        }
+
+        .link:nth-child(3) {
+            background-color: orange;
+            border: 4px solid darkorange;
+        }
+
+        .link:nth-child(4) {
+            background-color: white;
+            border: 4px solid lightgray;
+            color: black;
+        }
+
+        .link:nth-child(5) {
+            background-color: pink;
+            border: 4px solid deeppink;
+        }
+
+        /* Hover effect */
+        .link:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Styling for the images above each link */
+        .image-container {
+            margin: 20px auto;
+            width: 400px;
+            height: 250px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CLIMATE CHANGE AWARENESS</h1>
+    
+    <div class="link-box">
+        <!-- Introduction Link with Image -->
+        <div class="image-container">
+            <img src="cc.jpg" alt="Introduction Image">
+        </div>
+        <a class="link" href="introduction.html">Introduction</a>
+
+        <!-- Impact Link with Image -->
+        <div class="image-container">
+            <img src="https://example.com/impact-image.jpg" alt="Impact Image">
+        </div>
+        <a class="link" href="impact.html">Impact</a>
+
+        <!-- Solutions Link with Image -->
+        <div class="image-container">
+            <img src="https://example.com/solutions-image.jpg" alt="Solutions Image">
+        </div>
+        <a class="link" href="solutions.html">Solutions</a>
+
+        <!-- Actions Link with Image -->
+        <div class="image-container">
+            <img src="https://example.com/actions-image.jpg" alt="Actions Image">
+        </div>
+        <a class="link" href="actions.html">Actions</a>
+
+        <!-- Resources Link with Image -->
+        <div class="image-container">
+            <img src="https://example.com/resources-image.jpg" alt="Resources Image">
+        </div>
+        <a class="link" href="resources.html">Resources</a>
+    </div>
+
+</body>
+</html>
